@@ -1,0 +1,8 @@
+name: CI workflow
+
+jobs:
+  build:
+    runs-on: ubantu-latest
+    steps:
+      - uses: actions/checkout@v4 
+      - uses: actions/
